@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.linkmain{
+    width: 100%;
+    height: 270px;
+    /* background-image: url(img/place.png); */
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkmain a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    font-size: 22px;
+    transition: all 1s;
+}
+
+#place a:hover , #instru a:hover , #food a:hover{
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#place:hover{
+    background-image: url(img/place.png);
+    transform: scale(0.9);
+}
+#place{
+    background-image: linear-gradient(rgba(138, 140, 255, 0.3),rgba(121, 255, 117, 0.3)) , url(img/place.png);
+    transition: all 2s ease;
+}
+
+#culture{
+    background-image: url(img/culture.jpg);
+}
+#culture a{
+    color: #fff;
+}
+
+#instru:hover{
+    background-image: url(img/instrument.jpg);
+    transform: scale(0.9);
+}
+#instru{
+    background-image: linear-gradient(rgba(211, 28, 28, 0.3),rgba(44, 44, 43, 0.3)) , url(img/instrument.jpg);
+    transition: all 2s ease;
+}
+
+#food:hover{
+    background-image: url(img/tea.jpg);
+    transform: scale(0.9);
+}
+#food{
+    background-image: linear-gradient(rgba(173, 173, 173, 0.3),rgba(70, 49, 30, 0.3)) , url(img/tea.jpg);
+    transition: all 2s ease;
+}
