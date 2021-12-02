@@ -65,3 +65,138 @@
     background-image: linear-gradient(rgba(173, 173, 173, 0.3),rgba(70, 49, 30, 0.3)) , url(img/tea.jpg);
     transition: all 2s ease;
 }
+
+
+
+.instruCard p{
+    font-size: 15px;
+}
+
+.instruCard .card{
+    width: 18rem;
+    height: 22rem;
+    overflow: hidden;
+    /* margin-right: 0px!important; */
+}
+
+.instruCard img{
+    height: 160px;
+    transition: all 2s;
+}
+
+.instruCard img:hover{
+    transform: scale(1.2);
+}
+
+/* ======================================================================================= */
+
+footer{
+    background-color: #242424;
+    overflow-x: hidden;
+}
+
+footer #fme{
+    padding: 25px 30px;
+    color: #f4f4f4;
+}
+
+footer .about img{
+    width: 70px;
+    display: inline;
+}
+
+footer #fme h5 , .join h6{
+    padding-left: 15px;
+    border-left: 4px solid #f4f4f4;
+    text-align: justify;
+}
+
+footer .about p{
+    display: inline;
+    text-align: justify;
+}
+
+footer .about{
+    padding: 15px 10px;
+}
+
+footer .contact{
+    padding: 15px 10px;
+}
+
+footer #fme ul li{
+    list-style: none;
+}
+
+footer .contact ul li a{
+    color: #888888;
+    text-decoration: none;
+}
+
+footer .quick ul li a{
+    color: #888888;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer .join ul li{
+    float: left;
+    padding-right: 20px;
+}
+
+footer .join ul li a{
+    font-size: 25px;
+    color: #888888;
+}
+
+footer .join ul li a:hover{
+    color: #d6d6d6;
+
+}
+
+
+footer .contact ul li span{
+    padding-left: 12px;
+}
+
+footer .contact ul li a:hover , footer .quick ul li a:hover{
+    color: #d6d6d6;
+}
+/* =============================================================== */
+
+.arrow{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+
+    font-size: 30px;
+    color: red;
+}
+
+.arrow:hover{
+    color: red;
+}
+
+@media (max-width:600px){
+
+    /* .instruCard{
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    .instruCard .card{
+        width: 22rem;
+        height: 25rem;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+    .instruCard img{
+        height: 200px;
+    }
+
+    .instruCard img:hover{
+        transform: scale(1.2);
+    }
+
+}
