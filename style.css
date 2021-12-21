@@ -8,6 +8,14 @@
     visibility: hidden;
 }
 
+.arrow{
+    display: block;
+}
+
+.arrow1{
+    display: none;
+}
+
 .linkmain{
     width: 100%;
     height: 270px;
@@ -73,6 +81,30 @@
 }
 /* ========================================================================= */
 
+    .myanmar{
+        font-size: 17px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        font-variant: small-caps;
+        color: #8d8b13;
+        overflow-x: hidden;  
+    }
+
+    .myanmar p{
+        text-indent: 40px;
+        color: #c5c350;
+    }
+
+    .myanmar p span{
+        font-size: 26px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #c4d10d;
+    }
+
+
+/* ========================================================================= */
+
 #green h3{
     display: inline;
     background-color: green;
@@ -118,6 +150,14 @@
 
     .fourNav{
         display: none;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .arrow1{
+        display: block;
     }
 
     #carouselExampleCaptions h5{
@@ -186,9 +226,9 @@
         padding: 20px 30px;
     }
 
-    .arrow{
+    .arrow , .arrow1{
         bottom: 20px!important;
-        right: 7px!important;
+        right: 10px!important;
         font-size: 20px!important;
     }
 }
@@ -398,15 +438,15 @@ footer .contact ul li a:hover , footer .quick ul li a:hover{
 }
 /* =============================================================== */
 
-.arrow{
+.arrow , .arrow1{
     position: fixed;
     bottom: 20px;
     right: 30px;
-
     font-size: 30px;
-    color: red;
+    color: #ee4444;
+    /* display: none; */
 }
 
-.arrow:hover{
+.arrow:hover , .arrow1:hover{
     color: red;
 }
