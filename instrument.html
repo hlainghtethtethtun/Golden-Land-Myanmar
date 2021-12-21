@@ -17,8 +17,8 @@
   </head>
   <body>
     <div class="fluid-container">
-      <nav id="topage" class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
+      <nav id="logoNav" class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container-fluid" id="topage">
           <a class="navbar-brand centermain mx-auto" href="index.html">
             <img src="img/logo.png" alt="Logo" width="35" class="d-inline-block align-text-top"/>
             GOLDEN LAND MYANMAR
@@ -26,9 +26,31 @@
         </div>
       </nav>
 
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm btnNav" id="topage">
+        <div class="container-fluid">
+          <a class="navbar-brand centermain mx-auto" href="index.html">
+            <img src="img/logo.png" alt="Logo" width="35" class="d-inline-block align-text-top"/>
+            GOLDEN LAND MYANMAR
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="place.html">Places</a>
+              <a class="nav-link" href="culture.html">Cultures</a>
+              <a class="nav-link active" aria-current="page" href="instrument.html">Instruments</a>
+              <a class="nav-link" href="food.html">Foods</a>
+              <a class="nav-link" href="ethnic.html" >Ethnicities</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
       <div class="container mt-2 mb-4">
 
-        <div class="col-12 d-lg-flex justify-content-center align-items-center">
+        <div class="col-12 d-lg-flex justify-content-center align-items-center fourNav">
           <div class="col-lg-6 col-md-12 m-1 linkmain" id="place">
             <a href="place.html">Places</a>
           </div>
@@ -36,7 +58,7 @@
             <a href="culture.html">Cultures</a>
           </div>
         </div>
-        <div class="col-12 d-lg-flex justify-content-center align-items-center">
+        <div class="col-12 d-lg-flex justify-content-center align-items-center fourNav">
           <div class="col-lg-6 col-md-12 m-1 linkmain" id="instru">
             <a href="instrument.html">Instruments</a>
           </div>
