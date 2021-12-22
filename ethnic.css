@@ -2,10 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .btnNav{
     visibility: hidden;
+}
+
+.arrow{
+    display: block;
+}
+
+.arrow1{
+    display: none;
 }
 
 .linkmain{
@@ -192,18 +201,19 @@ footer .contact ul li a:hover , footer .quick ul li a:hover{
 }
 /* =============================================================== */
 
-.arrow{
+.arrow , .arrow1{
     position: fixed;
     bottom: 20px;
     right: 30px;
-
     font-size: 30px;
-    color: red;
+    color: #ee4444;
+    /* display: none; */
 }
 
-.arrow:hover{
+.arrow:hover , .arrow1:hover{
     color: red;
 }
+/* =============================================================== */
 
 @media (max-width:600px){
 
@@ -244,5 +254,18 @@ footer .contact ul li a:hover , footer .quick ul li a:hover{
 
     footer #fme{
         padding: 20px 30px;
+    }
+
+    .arrow{
+        display: none;
+    }
+    
+    .arrow1{
+        display: block;
+    }
+    .arrow , .arrow1{
+        bottom: 20px!important;
+        right: 10px!important;
+        font-size: 20px!important;
     }
 }

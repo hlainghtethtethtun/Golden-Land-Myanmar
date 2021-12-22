@@ -2,10 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .btnNav{
     visibility: hidden;
+}
+
+.arrow{
+    display: block;
+}
+
+.arrow1{
+    display: none;
 }
 
 .linkmain{
@@ -70,6 +79,96 @@
     color: #fff;
 }
 
+/* ================================================================================================ */
+
+footer{
+    background-color: #242424;
+    overflow-x: hidden;
+}
+
+footer #fme{
+    padding: 25px 30px;
+    color: #f4f4f4;
+}
+
+footer .about img{
+    width: 70px;
+    display: inline;
+}
+
+footer #fme h5 , .join h6{
+    padding-left: 15px;
+    border-left: 4px solid #f4f4f4;
+    text-align: justify;
+}
+
+footer .about p{
+    display: inline;
+    text-align: justify;
+}
+
+footer .about{
+    padding: 15px 10px;
+}
+
+footer .contact{
+    padding: 15px 10px;
+}
+
+footer #fme ul li{
+    list-style: none;
+}
+
+footer .contact ul li a{
+    color: #888888;
+    text-decoration: none;
+}
+
+footer .quick ul li a{
+    color: #888888;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer .join ul li{
+    float: left;
+    padding-right: 20px;
+}
+
+footer .join ul li a{
+    font-size: 25px;
+    color: #888888;
+}
+
+footer .join ul li a:hover{
+    color: #d6d6d6;
+
+}
+
+
+footer .contact ul li span{
+    padding-left: 12px;
+}
+
+footer .contact ul li a:hover , footer .quick ul li a:hover{
+    color: #d6d6d6;
+}
+
+/* ================================================================================================ */
+.arrow , .arrow1{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: #ee4444;
+    /* display: none; */
+}
+
+.arrow:hover , .arrow1:hover{
+    color: red;
+}
+/* ================================================================================================ */
+
 @media (max-width:600px){
 
     .btnNav{
@@ -82,5 +181,22 @@
 
     .fourNav{
         display: none;
+    }
+
+    footer #fme{
+        padding: 20px 30px;
+    }
+
+    .arrow{
+        display: none;
+    }
+    
+    .arrow1{
+        display: block;
+    }
+    .arrow , .arrow1{
+        bottom: 20px!important;
+        right: 10px!important;
+        font-size: 20px!important;
     }
 }
