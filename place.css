@@ -229,6 +229,12 @@ footer .contact ul li a:hover , footer .quick ul li a:hover{
 
 @media (max-width:600px){
 
+    .navbar-dark .navbar-brand {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+    }
+
     .btnNav{
         visibility: visible;
     }
@@ -246,11 +252,14 @@ footer .contact ul li a:hover , footer .quick ul li a:hover{
     }
 
     #para{
-        width: 300px;
+        /* width: 245px; */
+        width: 90%;
+        font-size: 14px;
 
         position: absolute;
         top: 40px;
-        left:55px;
+        left:10px;
+
     }
 
     /* .firstrow{
@@ -279,6 +288,6 @@ footer .contact ul li a:hover , footer .quick ul li a:hover{
     .arrow , .arrow1{
         bottom: 20px!important;
         right: 10px!important;
-        font-size: 20px!important;
+        font-size: 30px!important;
     }
 }

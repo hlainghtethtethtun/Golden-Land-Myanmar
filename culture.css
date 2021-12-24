@@ -169,6 +169,12 @@ footer .contact ul li a:hover , footer .quick ul li a:hover{
 /* =========================================================================== */
 @media (max-width:600px){
 
+    .navbar-dark .navbar-brand {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+    }
+    
     .btnNav{
         visibility: visible;
     }
