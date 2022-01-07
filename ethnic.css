@@ -82,7 +82,7 @@
 }
 /* =================================================================== */
 .mainImg{
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
     border: 10px solid #f5f5f5;
     box-shadow: -3px -5px 10px #222;
@@ -233,6 +233,10 @@ footer .contact ul li a:hover , footer .quick ul li a:hover{
 
     .fourNav{
         display: none;
+    }
+
+    .mainImg {
+        margin-top: 15px;
     }
 
     .mainImg img{

@@ -78,7 +78,72 @@
     background-image: linear-gradient(rgba(173, 173, 173, 0.3),rgba(70, 49, 30, 0.3)) , url(img/tea.jpg);
     transition: all 2s ease;
 }
+/* ====================================================================================== */
 
+.main-culture , #art , #festival{
+    background-color: #f3c168;
+}
+
+.main-culture h2{
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: 600;
+    color: #6a4708;
+}
+
+.main-culture .list{
+    margin-bottom: 40px;
+}
+
+.main-culture .list li{
+    color: #8b5c09;
+    margin-bottom: 10px;
+}
+
+.main-culture .list a{
+    color: #8b5c09;
+}
+
+.main-culture .list a:hover{
+    color: #c48600;
+}
+
+#religion , #dress , #cosmetic{
+    background-color: #f7c977;
+}
+
+.samecul {
+    overflow-x: hidden;
+}
+
+.samecul h3{
+    color: #5e3d00;
+    text-align: center;
+    text-shadow: 7px 5px 4px #d89116;
+    padding-top: 30px;
+    font-family: serif;
+    /* text-decoration: underline; */
+    padding-left: 15px;
+}
+
+.samecul p{
+    padding: 20px;
+    text-align: justify;
+}
+
+.reli-image{
+    padding: 0;
+}
+
+.reli-image img{
+    width: 100%;
+    height: 50vh;
+    padding-top: 30px;
+}
+
+/* ====================================================================================== */
 footer{
     background-color: #242424;
     overflow-x: hidden;
@@ -202,5 +267,23 @@ footer .contact ul li a:hover , footer .quick ul li a:hover{
         bottom: 20px!important;
         right: 10px!important;
         font-size: 20px!important;
+    }
+
+    .reli-image img{
+        height: 32vh;
+        padding-top: 5px !important;
+    }
+
+    .samecul p{
+        padding: 13px;
+        font-size: 14px;
+    }
+
+    .main-culture h2{
+        font-size: 19px;
+    }
+
+    .main-culture .list a{
+        font-size: 14px;
     }
 }
